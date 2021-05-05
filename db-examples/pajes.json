@@ -1,0 +1,145 @@
+[{
+  "_id": {
+    "$oid": "000000000000000000000001"
+  },
+  "usuario": "pmartineti",
+  "password": "soy-patge",
+  "nombre": "Pepe",
+  "apellidos": "Martineti Maguregui"
+},{
+  "_id": {
+    "$oid": "000000000000000000000002"
+  },
+  "usuario": "mrubio",
+  "password": "soy-patge",
+  "nombre": "Marco",
+  "apellidos": "Rubio Urquijo"
+},{
+  "_id": {
+    "$oid": "000000000000000000000003"
+  },
+  "usuario": "ochirri",
+  "password": "soy-patge",
+  "nombre": "Oscar",
+  "apellidos": "Chirri Roncal"
+},{
+  "_id": {
+    "$oid": "000000000000000000000004"
+  },
+  "usuario": "amarin",
+  "password": "soy-patge",
+  "nombre": "Angel",
+  "apellidos": "Marin Rincon"
+},{
+  "_id": {
+    "$oid": "000000000000000000000005"
+  },
+  "usuario": "vpenya",
+  "password": "soy-patge",
+  "nombre": "Victor",
+  "apellidos": "Peña Aramberri"
+},{
+  "_id": {
+    "$oid": "000000000000000000000006"
+  },
+  "usuario": "svalle",
+  "password": "soy-patge",
+  "nombre": "Sonia",
+  "apellidos": "Valle Tote"
+},{
+  "_id": {
+    "$oid": "000000000000000000000007"
+  },
+  "usuario": "ichirri",
+  "password": "soy-patge",
+  "nombre": "Isabel",
+  "apellidos": "Chirri Aldekoa"
+},{
+  "_id": {
+    "$oid": "000000000000000000000008"
+  },
+  "usuario": "jaguilar",
+  "password": "soy-patge",
+  "nombre": "Juan",
+  "apellidos": "Aguilar Kadira"
+},{
+  "_id": {
+    "$oid": "000000000000000000000009"
+  },
+  "usuario": "jsetien",
+  "password": "soy-patge",
+  "nombre": "Juan",
+  "apellidos": "Setien Hernandez"
+},{
+  "_id": {
+    "$oid": "000000000000000000000010"
+  },
+  "usuario": "airaragorri",
+  "password": "soy-patge",
+  "nombre": "Antonio",
+  "apellidos": "Iraragorri Guerrero"
+},{
+  "_id": {
+    "$oid": "000000000000000000000011"
+  },
+  "usuario": "clatorre",
+  "password": "soy-patge",
+  "nombre": "Carmen",
+  "apellidos": "Latorre Munitis"
+},{
+  "_id": {
+    "$oid": "000000000000000000000012"
+  },
+  "usuario": "imena",
+  "password": "soy-patge",
+  "nombre": "Ismael",
+  "apellidos": "Mena Perrote"
+},{
+  "_id": {
+    "$oid": "000000000000000000000013"
+  },
+  "usuario": "isoldevilla",
+  "password": "soy-patge",
+  "nombre": "Ignacio",
+  "apellidos": "Soldevilla Marin"
+},{
+  "_id": {
+    "$oid": "000000000000000000000014"
+  },
+  "usuario": "jportugal",
+  "password": "soy-patge",
+  "nombre": "Jesus",
+  "apellidos": "Portugal Soldevilla"
+},{
+  "_id": {
+    "$oid": "000000000000000000000015"
+  },
+  "usuario": "gmenchaca",
+  "password": "soy-patge",
+  "nombre": "Guillermo",
+  "apellidos": "Menchaca Lobo"
+},{
+  "_id": {
+    "$oid": "000000000000000000000016"
+  },
+  "usuario": "jlucarelli",
+  "password": "soy-patge",
+  "nombre": "Justo",
+  "apellidos": "Lucarelli Pineda"
+},{
+  "_id": {
+    "$oid": "000000000000000000000017"
+  },
+  "usuario": "jyeste",
+  "password": "soy-patge",
+  "nombre": "Juan Carlos",
+  "apellidos": "Yeste Dindurra"
+},{
+  "_id": {
+    "$oid": "000000000000000000000018"
+  },
+  "usuario": "erivera",
+  "password": "soy-patge",
+  "nombre": "Eduardo",
+  "apellidos": "Rivera Villar"
+}]

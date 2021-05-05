@@ -1,0 +1,1425 @@
+[{
+  "_id": {
+    "$oid": "000000000000000000000001"
+  },
+  "nombre": "ACTIVITY EUROS",
+  "precio": 49.87,
+  "peso": 0.49,
+  "stock": 10
+},{
+  "_id": {
+    "$oid": "000000000000000000000002"
+  },
+  "nombre": "ACTIVITY PLAY",
+  "precio": 47.69,
+  "peso": 1.55,
+  "stock": 12
+},{
+  "_id": {
+    "$oid": "000000000000000000000003"
+  },
+  "nombre": "ANGRY BIRDS",
+  "precio": 27.3,
+  "peso": 3.1,
+  "stock": 14
+},{
+  "_id": {
+    "$oid": "000000000000000000000004"
+  },
+  "nombre": "ARMARIO DE MADERA",
+  "precio": 39.47,
+  "peso": 1.33,
+  "stock": 3
+},{
+  "_id": {
+    "$oid": "000000000000000000000005"
+  },
+  "nombre": "AUTO MATH",
+  "precio": 39.5,
+  "peso": 4.85,
+  "stock": 20
+},{
+  "_id": {
+    "$oid": "000000000000000000000006"
+  },
+  "nombre": "AUTOCROSS SPIDERMAN",
+  "precio": 23.1,
+  "peso": 1.12,
+  "stock": 1
+},{
+  "_id": {
+    "$oid": "000000000000000000000007"
+  },
+  "nombre": "BABY ALIVE",
+  "precio": 50.12,
+  "peso": 0.81,
+  "stock": 20
+},{
+  "_id": {
+    "$oid": "000000000000000000000008"
+  },
+  "nombre": "BABY BORN QUAD CITY TOUR",
+  "precio": 59.19,
+  "peso": 4.3,
+  "stock": 4
+},{
+  "_id": {
+    "$oid": "000000000000000000000009"
+  },
+  "nombre": "BABY PIANO DO RE MI",
+  "precio": 26.4,
+  "peso": 2.97,
+  "stock": 17
+},{
+  "_id": {
+    "$oid": "000000000000000000000010"
+  },
+  "nombre": "BABY TWIST",
+  "precio": 78.28,
+  "peso": 1.52,
+  "stock": 12
+},{
+  "_id": {
+    "$oid": "000000000000000000000011"
+  },
+  "nombre": "BARBIE ESCUELA DE PRINCESAS",
+  "precio": 43.9,
+  "peso": 6.8,
+  "stock": 18
+},{
+  "_id": {
+    "$oid": "000000000000000000000012"
+  },
+  "nombre": "BARBIE ESTUDIO DE MECHAS",
+  "precio": 68.85,
+  "peso": 0.21,
+  "stock": 9
+},{
+  "_id": {
+    "$oid": "000000000000000000000013"
+  },
+  "nombre": "BARBIE Y TAWNY VAMOS DE PASEO",
+  "precio": 46.43,
+  "peso": 3.5,
+  "stock": 2
+},{
+  "_id": {
+    "$oid": "000000000000000000000014"
+  },
+  "nombre": "BARCO DE ESPÍAS DE CARS",
+  "precio": 26.38,
+  "peso": 4.82,
+  "stock": 10
+},{
+  "_id": {
+    "$oid": "000000000000000000000015"
+  },
+  "nombre": "BARRIGUITAS CASA CON ASA",
+  "precio": 38.7,
+  "peso": 3.1,
+  "stock": 2
+},{
+  "_id": {
+    "$oid": "000000000000000000000016"
+  },
+  "nombre": "BARRIGUITAS EL COLE",
+  "precio": 73.69,
+  "peso": 1.75,
+  "stock": 14
+},{
+  "_id": {
+    "$oid": "000000000000000000000017"
+  },
+  "nombre": "BATERÍA SENCILLA",
+  "precio": 48.44,
+  "peso": 6.83,
+  "stock": 2
+},{
+  "_id": {
+    "$oid": "000000000000000000000018"
+  },
+  "nombre": "BATERÍA SENCILLA CON BANQUETA",
+  "precio": 64.28,
+  "peso": 6.9,
+  "stock": 9
+},{
+  "_id": {
+    "$oid": "000000000000000000000019"
+  },
+  "nombre": "BEBÉ DUE",
+  "precio": 35.1,
+  "peso": 0.61,
+  "stock": 11
+},{
+  "_id": {
+    "$oid": "000000000000000000000020"
+  },
+  "nombre": "BEBE VIP BLOQUES DE CONSTRUCCIÓN BLANDITOS",
+  "precio": 65.53,
+  "peso": 6.6,
+  "stock": 6
+},{
+  "_id": {
+    "$oid": "000000000000000000000021"
+  },
+  "nombre": "BEYBLADE",
+  "precio": 68.67,
+  "peso": 2.66,
+  "stock": 18
+},{
+  "_id": {
+    "$oid": "000000000000000000000022"
+  },
+  "nombre": "BICICLETA SIN PEDALES BLANCA",
+  "precio": 26.6,
+  "peso": 3.76,
+  "stock": 5
+},{
+  "_id": {
+    "$oid": "000000000000000000000023"
+  },
+  "nombre": "BLOCKS SUPER MALETA 64 PIEZAS",
+  "precio": 73.83,
+  "peso": 0.72,
+  "stock": 2
+},{
+  "_id": {
+    "$oid": "000000000000000000000024"
+  },
+  "nombre": "BOIKIDO",
+  "precio": 65.33,
+  "peso": 4.63,
+  "stock": 8
+},{
+  "_id": {
+    "$oid": "000000000000000000000025"
+  },
+  "nombre": "BOTANICEFA",
+  "precio": 61.5,
+  "peso": 2.87,
+  "stock": 0
+},{
+  "_id": {
+    "$oid": "000000000000000000000026"
+  },
+  "nombre": "BRATZ MASQUERADE MUÑECAS",
+  "precio": 22.47,
+  "peso": 3.6,
+  "stock": 20
+},{
+  "_id": {
+    "$oid": "000000000000000000000027"
+  },
+  "nombre": "BRATZ ON THE MIC CON MICRÓFONO Y ALTAVOZ",
+  "precio": 71.61,
+  "peso": 2.48,
+  "stock": 6
+},{
+  "_id": {
+    "$oid": "000000000000000000000028"
+  },
+  "nombre": "CAJA FORMAS MAGNÉTICAS",
+  "precio": 48.86,
+  "peso": 1.9,
+  "stock": 16
+},{
+  "_id": {
+    "$oid": "000000000000000000000029"
+  },
+  "nombre": "CAMIÓN - GRÚA DE MANNY",
+  "precio": 56.66,
+  "peso": 1.48,
+  "stock": 14
+},{
+  "_id": {
+    "$oid": "000000000000000000000030"
+  },
+  "nombre": "CANGREBURGUER RC CAR",
+  "precio": 66.28,
+  "peso": 3.69,
+  "stock": 2
+},{
+  "_id": {
+    "$oid": "000000000000000000000031"
+  },
+  "nombre": "CARBÓN",
+  "precio": 5.65,
+  "peso": 6.58,
+  "stock": 4
+},{
+  "_id": {
+    "$oid": "000000000000000000000032"
+  },
+  "nombre": "CARRUSEL MAGIA DE ESTRELLA",
+  "precio": 46.46,
+  "peso": 2.48,
+  "stock": 15
+},{
+  "_id": {
+    "$oid": "000000000000000000000033"
+  },
+  "nombre": "CASITA PURPURINA DE POLLY",
+  "precio": 36.34,
+  "peso": 5.46,
+  "stock": 12
+},{
+  "_id": {
+    "$oid": "000000000000000000000034"
+  },
+  "nombre": "CENTRO COMERCIAL PINYPON",
+  "precio": 61.1,
+  "peso": 3.3,
+  "stock": 8
+},{
+  "_id": {
+    "$oid": "000000000000000000000035"
+  },
+  "nombre": "CHOU CHOU MASAJITOS",
+  "precio": 23.5,
+  "peso": 2.79,
+  "stock": 3
+},{
+  "_id": {
+    "$oid": "000000000000000000000036"
+  },
+  "nombre": "CHUCHES",
+  "precio": 3.5,
+  "peso": 6.36,
+  "stock": 7
+},{
+  "_id": {
+    "$oid": "000000000000000000000037"
+  },
+  "nombre": "CHUCK INTERACTIVO",
+  "precio": 53.69,
+  "peso": 3.86,
+  "stock": 0
+},{
+  "_id": {
+    "$oid": "000000000000000000000038"
+  },
+  "nombre": "CICCIOBELLO BUA MALITO",
+  "precio": 55.64,
+  "peso": 5.36,
+  "stock": 8
+},{
+  "_id": {
+    "$oid": "000000000000000000000039"
+  },
+  "nombre": "CITY AEROPUERTO",
+  "precio": 46.24,
+  "peso": 0.87,
+  "stock": 4
+},{
+  "_id": {
+    "$oid": "000000000000000000000040"
+  },
+  "nombre": "CITY COMISARÍA DE POLICÍA",
+  "precio": 78.4,
+  "peso": 4.24,
+  "stock": 14
+},{
+  "_id": {
+    "$oid": "000000000000000000000041"
+  },
+  "nombre": "CLARA HABLA YA",
+  "precio": 38.3,
+  "peso": 2.83,
+  "stock": 14
+},{
+  "_id": {
+    "$oid": "000000000000000000000042"
+  },
+  "nombre": "COCHE MULTIACTIVIDADES DE NODDY",
+  "precio": 38.91,
+  "peso": 4.61,
+  "stock": 19
+},{
+  "_id": {
+    "$oid": "000000000000000000000043"
+  },
+  "nombre": "COCHE MUÑECA 3 X 1",
+  "precio": 29.4,
+  "peso": 4.48,
+  "stock": 17
+},{
+  "_id": {
+    "$oid": "000000000000000000000044"
+  },
+  "nombre": "COCHE MUÑECA SUSPENSIÓN CON BANDEJA Y BOLSO",
+  "precio": 72.69,
+  "peso": 3.37,
+  "stock": 8
+},{
+  "_id": {
+    "$oid": "000000000000000000000045"
+  },
+  "nombre": "COCINA ECO",
+  "precio": 42.97,
+  "peso": 2.89,
+  "stock": 14
+},{
+  "_id": {
+    "$oid": "000000000000000000000046"
+  },
+  "nombre": "COLECCIÓN NUPCIAL",
+  "precio": 71.71,
+  "peso": 6.19,
+  "stock": 15
+},{
+  "_id": {
+    "$oid": "000000000000000000000047"
+  },
+  "nombre": "SATISFYER PRO 2",
+  "precio": 37.97,
+  "peso": 1.23,
+  "stock": 0
+},{
+  "_id": {
+    "$oid": "000000000000000000000048"
+  },
+  "nombre": "CONJUNTO GUITARRA Y MICRO",
+  "precio": 23.99,
+  "peso": 6.73,
+  "stock": 5
+},{
+  "_id": {
+    "$oid": "000000000000000000000049"
+  },
+  "nombre": "COOKIE MI ADORABLE PERRITO",
+  "precio": 31.2,
+  "peso": 0.64,
+  "stock": 3
+},{
+  "_id": {
+    "$oid": "000000000000000000000050"
+  },
+  "nombre": "CREATOR CABAÑA DE MADERA",
+  "precio": 23.13,
+  "peso": 0.87,
+  "stock": 3
+},{
+  "_id": {
+    "$oid": "000000000000000000000051"
+  },
+  "nombre": "CRISTALCEFA PLUS",
+  "precio": 52.67,
+  "peso": 0,
+  "stock": 8
+},{
+  "_id": {
+    "$oid": "000000000000000000000052"
+  },
+  "nombre": "DANCING DANNY",
+  "precio": 72.81,
+  "peso": 0.23,
+  "stock": 14
+},{
+  "_id": {
+    "$oid": "000000000000000000000053"
+  },
+  "nombre": "DH CAJA REGISTRADORA CON CINTA",
+  "precio": 58.48,
+  "peso": 5.29,
+  "stock": 3
+},{
+  "_id": {
+    "$oid": "000000000000000000000054"
+  },
+  "nombre": "DOLCE PARTY - FÁBRICA DE DULCES",
+  "precio": 79.16,
+  "peso": 2.38,
+  "stock": 2
+},{
+  "_id": {
+    "$oid": "000000000000000000000055"
+  },
+  "nombre": "DOLLS FOR ALL",
+  "precio": 49.44,
+  "peso": 1.73,
+  "stock": 17
+},{
+  "_id": {
+    "$oid": "000000000000000000000056"
+  },
+  "nombre": "DORA CANTA Y BAILA",
+  "precio": 71.4,
+  "peso": 6.47,
+  "stock": 13
+},{
+  "_id": {
+    "$oid": "000000000000000000000057"
+  },
+  "nombre": "DULCES PASITOS",
+  "precio": 67.33,
+  "peso": 4.2,
+  "stock": 20
+},{
+  "_id": {
+    "$oid": "000000000000000000000058"
+  },
+  "nombre": "DUPLO GRAN GRANJA",
+  "precio": 65.13,
+  "peso": 6.84,
+  "stock": 15
+},{
+  "_id": {
+    "$oid": "000000000000000000000059"
+  },
+  "nombre": "EL AUTOBÚS DE DORA",
+  "precio": 44.91,
+  "peso": 0.61,
+  "stock": 12
+},{
+  "_id": {
+    "$oid": "000000000000000000000060"
+  },
+  "nombre": "EL SUPER AVIÓN DE BLYTHE Y PET SHOP",
+  "precio": 36.7,
+  "peso": 6.37,
+  "stock": 19
+},{
+  "_id": {
+    "$oid": "000000000000000000000061"
+  },
+  "nombre": "ELEFUN",
+  "precio": 76.8,
+  "peso": 4.51,
+  "stock": 6
+},{
+  "_id": {
+    "$oid": "000000000000000000000062"
+  },
+  "nombre": "ELMO ROCK",
+  "precio": 32.6,
+  "peso": 2.71,
+  "stock": 14
+},{
+  "_id": {
+    "$oid": "000000000000000000000063"
+  },
+  "nombre": "FRUTILANDIA",
+  "precio": 61.45,
+  "peso": 2.7,
+  "stock": 5
+},{
+  "_id": {
+    "$oid": "000000000000000000000064"
+  },
+  "nombre": "GAMES MINOTAURO",
+  "precio": 29.29,
+  "peso": 4.26,
+  "stock": 8
+},{
+  "_id": {
+    "$oid": "000000000000000000000065"
+  },
+  "nombre": "GELARTI - ESTUDIO DE DISEÑO",
+  "precio": 44.34,
+  "peso": 3.35,
+  "stock": 1
+},{
+  "_id": {
+    "$oid": "000000000000000000000066"
+  },
+  "nombre": "GIMNASIO - PIANO PATADITAS",
+  "precio": 36.1,
+  "peso": 4.51,
+  "stock": 1
+},{
+  "_id": {
+    "$oid": "000000000000000000000067"
+  },
+  "nombre": "GRAN PARQUE DE ATRACCIONES",
+  "precio": 27.13,
+  "peso": 5.91,
+  "stock": 12
+},{
+  "_id": {
+    "$oid": "000000000000000000000068"
+  },
+  "nombre": "GRANJA DE CAILLOU",
+  "precio": 73.6,
+  "peso": 3.16,
+  "stock": 2
+},{
+  "_id": {
+    "$oid": "000000000000000000000069"
+  },
+  "nombre": "GUITARRA POCOYO INFANTIL",
+  "precio": 58.67,
+  "peso": 0.6,
+  "stock": 13
+},{
+  "_id": {
+    "$oid": "000000000000000000000070"
+  },
+  "nombre": "GUMMI BLOCKS",
+  "precio": 64.3,
+  "peso": 5.38,
+  "stock": 8
+},{
+  "_id": {
+    "$oid": "000000000000000000000071"
+  },
+  "nombre": "HIDROCÁPSULA LUMINOSA DE LAGOONA",
+  "precio": 63.88,
+  "peso": 5.32,
+  "stock": 2
+},{
+  "_id": {
+    "$oid": "000000000000000000000072"
+  },
+  "nombre": "HIPOBUS Y ESCARABAJITOS",
+  "precio": 59.5,
+  "peso": 5.79,
+  "stock": 17
+},{
+  "_id": {
+    "$oid": "000000000000000000000073"
+  },
+  "nombre": "I LOVE DANCE - DANCE SET DVD",
+  "precio": 70.85,
+  "peso": 6.86,
+  "stock": 11
+},{
+  "_id": {
+    "$oid": "000000000000000000000074"
+  },
+  "nombre": "ILM COCHE PICNIC",
+  "precio": 69.24,
+  "peso": 2.33,
+  "stock": 10
+},{
+  "_id": {
+    "$oid": "000000000000000000000075"
+  },
+  "nombre": "POLINA VIOLÍN",
+  "precio": 57.9,
+  "peso": 2.67,
+  "stock": 18
+},{
+  "_id": {
+    "$oid": "000000000000000000000076"
+  },
+  "nombre": "JUEGO DE MEMORIA DE BOB ESPONJA",
+  "precio": 60.43,
+  "peso": 3.19,
+  "stock": 5
+},{
+  "_id": {
+    "$oid": "000000000000000000000077"
+  },
+  "nombre": "KAMISHIBAI CUENTO",
+  "precio": 79.92,
+  "peso": 0.92,
+  "stock": 7
+},{
+  "_id": {
+    "$oid": "000000000000000000000078"
+  },
+  "nombre": "LA CASA DEL ÁRBOL",
+  "precio": 50.83,
+  "peso": 6.5,
+  "stock": 20
+},{
+  "_id": {
+    "$oid": "000000000000000000000079"
+  },
+  "nombre": "LA HAMBURGUESERÍA",
+  "precio": 63.41,
+  "peso": 5.45,
+  "stock": 14
+},{
+  "_id": {
+    "$oid": "000000000000000000000080"
+  },
+  "nombre": "LABERINTO MEDIANO VACA",
+  "precio": 65.28,
+  "peso": 2.57,
+  "stock": 3
+},{
+  "_id": {
+    "$oid": "000000000000000000000081"
+  },
+  "nombre": "LABORATORIO DE CREACIÓN DE ALIENÍGENAS",
+  "precio": 57.16,
+  "peso": 3.35,
+  "stock": 3
+},{
+  "_id": {
+    "$oid": "000000000000000000000082"
+  },
+  "nombre": "LALA LOOPSY MAGIC HAIR",
+  "precio": 77.46,
+  "peso": 6.83,
+  "stock": 17
+},{
+  "_id": {
+    "$oid": "000000000000000000000083"
+  },
+  "nombre": "LB MICRÓFONO CON LUZ Y EFECTOS",
+  "precio": 51.35,
+  "peso": 1.29,
+  "stock": 10
+},{
+  "_id": {
+    "$oid": "000000000000000000000084"
+  },
+  "nombre": "LINCE EDICIÓN FAMILIA",
+  "precio": 66.56,
+  "peso": 1.26,
+  "stock": 13
+},{
+  "_id": {
+    "$oid": "000000000000000000000085"
+  },
+  "nombre": "BENITO CAMELAS",
+  "precio": 74.8,
+  "peso": 6.45,
+  "stock": 16
+},{
+  "_id": {
+    "$oid": "000000000000000000000086"
+  },
+  "nombre": "MANTA DE SUELO TRANSFORMABLE",
+  "precio": 31.93,
+  "peso": 6.6,
+  "stock": 4
+},{
+  "_id": {
+    "$oid": "000000000000000000000087"
+  },
+  "nombre": "MANUALIDEDOS PASTA DE MODELAR",
+  "precio": 20.87,
+  "peso": 4.86,
+  "stock": 7
+},{
+  "_id": {
+    "$oid": "000000000000000000000088"
+  },
+  "nombre": "MANUALIDEDOS PIZARRA Y BLOC MAGNÉTICOS",
+  "precio": 66.46,
+  "peso": 0.75,
+  "stock": 3
+},{
+  "_id": {
+    "$oid": "000000000000000000000089"
+  },
+  "nombre": "MAPAMUNDI INTERACTIVO CON TAG",
+  "precio": 67.86,
+  "peso": 1.11,
+  "stock": 6
+},{
+  "_id": {
+    "$oid": "000000000000000000000090"
+  },
+  "nombre": "MASCOTA INTERACTIVA PRINCESAS DISNEY",
+  "precio": 61.69,
+  "peso": 3.21,
+  "stock": 14
+},{
+  "_id": {
+    "$oid": "000000000000000000000091"
+  },
+  "nombre": "MAXIDINOSAURIO CON BOLAS",
+  "precio": 78.32,
+  "peso": 2.66,
+  "stock": 0
+},{
+  "_id": {
+    "$oid": "000000000000000000000092"
+  },
+  "nombre": "MEGA RAMPA DE CARRERAS",
+  "precio": 69.56,
+  "peso": 0.9,
+  "stock": 9
+},{
+  "_id": {
+    "$oid": "000000000000000000000093"
+  },
+  "nombre": "MEGA T - REX",
+  "precio": 40.2,
+  "peso": 6.6,
+  "stock": 3
+},{
+  "_id": {
+    "$oid": "000000000000000000000094"
+  },
+  "nombre": "MERCADO AMANECER DE TARTA DE FRESA",
+  "precio": 27.81,
+  "peso": 1.7,
+  "stock": 11
+},{
+  "_id": {
+    "$oid": "000000000000000000000095"
+  },
+  "nombre": "MESA PARLANCHINA",
+  "precio": 31.37,
+  "peso": 6.62,
+  "stock": 17
+},{
+  "_id": {
+    "$oid": "000000000000000000000096"
+  },
+  "nombre": "MI PIANO",
+  "precio": 51.62,
+  "peso": 6.3,
+  "stock": 10
+},{
+  "_id": {
+    "$oid": "000000000000000000000097"
+  },
+  "nombre": "MI PRIMER CIRCUITO DE CARRERAS",
+  "precio": 42.2,
+  "peso": 6.88,
+  "stock": 10
+},{
+  "_id": {
+    "$oid": "000000000000000000000098"
+  },
+  "nombre": "MI PRIMERA BABY ANNABELL DULCES SUEÑOS",
+  "precio": 60.21,
+  "peso": 1.19,
+  "stock": 7
+},{
+  "_id": {
+    "$oid": "000000000000000000000099"
+  },
+  "nombre": "MICKEY - COHETE",
+  "precio": 47.8,
+  "peso": 4,
+  "stock": 12
+},{
+  "_id": {
+    "$oid": "000000000000000000000100"
+  },
+  "nombre": "MIMITTOS SENCILLO",
+  "precio": 23.17,
+  "peso": 0.52,
+  "stock": 8
+},{
+  "_id": {
+    "$oid": "000000000000000000000101"
+  },
+  "nombre": "MINI LALA LOOPSY CASA ÁRBOL",
+  "precio": 66.68,
+  "peso": 4.22,
+  "stock": 9
+},{
+  "_id": {
+    "$oid": "000000000000000000000102"
+  },
+  "nombre": "MINIMIMITTOS MI BEBÉ",
+  "precio": 41.46,
+  "peso": 6.4,
+  "stock": 18
+},{
+  "_id": {
+    "$oid": "000000000000000000000103"
+  },
+  "nombre": "MONSTRUO DE LAS GALLETAS COME Y CUENTA",
+  "precio": 66.33,
+  "peso": 0.37,
+  "stock": 10
+},{
+  "_id": {
+    "$oid": "000000000000000000000104"
+  },
+  "nombre": "MOTO MX - ON",
+  "precio": 49.14,
+  "peso": 4.32,
+  "stock": 4
+},{
+  "_id": {
+    "$oid": "000000000000000000000105"
+  },
+  "nombre": "MOTO NEOS RS",
+  "precio": 20.22,
+  "peso": 5.48,
+  "stock": 3
+},{
+  "_id": {
+    "$oid": "000000000000000000000106"
+  },
+  "nombre": "MOTOFEBER",
+  "precio": 38.48,
+  "peso": 6.3,
+  "stock": 16
+},{
+  "_id": {
+    "$oid": "000000000000000000000107"
+  },
+  "nombre": "MÓVIL OSITOS CON CONTROL REMOTO",
+  "precio": 80.53,
+  "peso": 0.19,
+  "stock": 8
+},{
+  "_id": {
+    "$oid": "000000000000000000000108"
+  },
+  "nombre": "MOXIE GIRLZ ART - TITUDE 3D",
+  "precio": 23.76,
+  "peso": 2.94,
+  "stock": 18
+},{
+  "_id": {
+    "$oid": "000000000000000000000109"
+  },
+  "nombre": "MOXIE GIRLZ MAGIC HAIR TINTA Y PEINA",
+  "precio": 59,
+  "peso": 5.96,
+  "stock": 8
+},{
+  "_id": {
+    "$oid": "000000000000000000000110"
+  },
+  "nombre": "MOXIE TEENZ",
+  "precio": 77.65,
+  "peso": 5.93,
+  "stock": 2
+},{
+  "_id": {
+    "$oid": "000000000000000000000111"
+  },
+  "nombre": "MY LITTLE PONY de HASBRO",
+  "precio": 47.26,
+  "peso": 5.63,
+  "stock": 0
+},{
+  "_id": {
+    "$oid": "000000000000000000000112"
+  },
+  "nombre": "MY LITTLE PONY",
+  "precio": 34.45,
+  "peso": 4.24,
+  "stock": 5
+},{
+  "_id": {
+    "$oid": "000000000000000000000113"
+  },
+  "nombre": "NANCY ANIMALITOS EN LA NIEVE",
+  "precio": 70.71,
+  "peso": 2.15,
+  "stock": 5
+},{
+  "_id": {
+    "$oid": "000000000000000000000114"
+  },
+  "nombre": "NANCY DE COMPRAS CON SU HERMANITA",
+  "precio": 43.7,
+  "peso": 6.9,
+  "stock": 15
+},{
+  "_id": {
+    "$oid": "000000000000000000000115"
+  },
+  "nombre": "NANCY MALETÍN DE PEINADOS",
+  "precio": 59.4,
+  "peso": 0.9,
+  "stock": 0
+},{
+  "_id": {
+    "$oid": "000000000000000000000116"
+  },
+  "nombre": "NENITTOS GUSANITO LUMINOSO",
+  "precio": 77.23,
+  "peso": 4.16,
+  "stock": 4
+},{
+  "_id": {
+    "$oid": "000000000000000000000117"
+  },
+  "nombre": "NENITTOS PERRITO APRENDIZAJE Y SONIDOS",
+  "precio": 60.8,
+  "peso": 6.28,
+  "stock": 12
+},{
+  "_id": {
+    "$oid": "000000000000000000000118"
+  },
+  "nombre": "NENITTOS TELÉFONO MÓVIL Y FIJO",
+  "precio": 41.68,
+  "peso": 6.98,
+  "stock": 1
+},{
+  "_id": {
+    "$oid": "000000000000000000000119"
+  },
+  "nombre": "NENUCO CONSULTA MÉDICA CON 2 MUÑECOS",
+  "precio": 27.39,
+  "peso": 1.76,
+  "stock": 3
+},{
+  "_id": {
+    "$oid": "000000000000000000000120"
+  },
+  "nombre": "NENUCO CUNITA DUERME CONMIGO",
+  "precio": 62.73,
+  "peso": 2.85,
+  "stock": 6
+},{
+  "_id": {
+    "$oid": "000000000000000000000121"
+  },
+  "nombre": "NENUCO PELUQUERÍA",
+  "precio": 46.43,
+  "peso": 0.58,
+  "stock": 2
+},{
+  "_id": {
+    "$oid": "000000000000000000000122"
+  },
+  "nombre": "NENUCO RESTAURANTE",
+  "precio": 56.48,
+  "peso": 4.96,
+  "stock": 16
+},{
+  "_id": {
+    "$oid": "000000000000000000000123"
+  },
+  "nombre": "NENUCO RN NIÑO CUIDADOS MÉDICOS",
+  "precio": 27.7,
+  "peso": 4.88,
+  "stock": 19
+},{
+  "_id": {
+    "$oid": "000000000000000000000124"
+  },
+  "nombre": "NENUCO Y SU HERMANITO",
+  "precio": 48.34,
+  "peso": 6.5,
+  "stock": 11
+},{
+  "_id": {
+    "$oid": "000000000000000000000125"
+  },
+  "nombre": "NEWBORN BABY",
+  "precio": 64.71,
+  "peso": 2.62,
+  "stock": 8
+},{
+  "_id": {
+    "$oid": "000000000000000000000126"
+  },
+  "nombre": "NINJAGO TEMPLO DEL FUEGO",
+  "precio": 53.47,
+  "peso": 4.6,
+  "stock": 6
+},{
+  "_id": {
+    "$oid": "000000000000000000000127"
+  },
+  "nombre": "OPERACIÓN",
+  "precio": 50.7,
+  "peso": 4.76,
+  "stock": 3
+},{
+  "_id": {
+    "$oid": "000000000000000000000128"
+  },
+  "nombre": "PAIR GAME PRIMEROS APRENDIZAJES",
+  "precio": 70.9,
+  "peso": 2.94,
+  "stock": 2
+},{
+  "_id": {
+    "$oid": "000000000000000000000129"
+  },
+  "nombre": "PASAPALABRA JUNIOR",
+  "precio": 66.12,
+  "peso": 5.4,
+  "stock": 7
+},{
+  "_id": {
+    "$oid": "000000000000000000000130"
+  },
+  "nombre": "PATCHY 36 CM.",
+  "precio": 42.35,
+  "peso": 3.79,
+  "stock": 4
+},{
+  "_id": {
+    "$oid": "000000000000000000000131"
+  },
+  "nombre": "PATINETE LUMINOSO",
+  "precio": 77.8,
+  "peso": 6.21,
+  "stock": 0
+},{
+  "_id": {
+    "$oid": "000000000000000000000132"
+  },
+  "nombre": "PHINEAS Y FERB MONTAÑA RUSA",
+  "precio": 58.2,
+  "peso": 2.93,
+  "stock": 18
+},{
+  "_id": {
+    "$oid": "000000000000000000000133"
+  },
+  "nombre": "PISTA ACROBÁTICA WALL TRACKS",
+  "precio": 66.17,
+  "peso": 2.64,
+  "stock": 12
+},{
+  "_id": {
+    "$oid": "000000000000000000000134"
+  },
+  "nombre": "PISTA CON COCHES DIVERTIDOS",
+  "precio": 37.16,
+  "peso": 3.29,
+  "stock": 11
+},{
+  "_id": {
+    "$oid": "000000000000000000000135"
+  },
+  "nombre": "PISTA REV - UPS ALTOS VUELOS",
+  "precio": 66.6,
+  "peso": 3.72,
+  "stock": 16
+},{
+  "_id": {
+    "$oid": "000000000000000000000136"
+  },
+  "nombre": "PISTA SALTO INFERNAL",
+  "precio": 27.35,
+  "peso": 3.86,
+  "stock": 12
+},{
+  "_id": {
+    "$oid": "000000000000000000000137"
+  },
+  "nombre": "PIZZERÍA",
+  "precio": 34.84,
+  "peso": 1.36,
+  "stock": 1
+},{
+  "_id": {
+    "$oid": "000000000000000000000138"
+  },
+  "nombre": "PLÁSTICO DE LLUVIA BOLSO Y RUEDAS DE GOMA",
+  "precio": 21.19,
+  "peso": 5.39,
+  "stock": 6
+},{
+  "_id": {
+    "$oid": "000000000000000000000139"
+  },
+  "nombre": "PLAYMOBIL",
+  "precio": 69.21,
+  "peso": 1.74,
+  "stock": 1
+},{
+  "_id": {
+    "$oid": "000000000000000000000140"
+  },
+  "nombre": "PLAYSET DE BATALLA POKEMON",
+  "precio": 32.31,
+  "peso": 1.84,
+  "stock": 7
+},{
+  "_id": {
+    "$oid": "000000000000000000000141"
+  },
+  "nombre": "PLAYSET JUNGLA SOBRE RUEDAS",
+  "precio": 57.19,
+  "peso": 0.99,
+  "stock": 20
+},{
+  "_id": {
+    "$oid": "000000000000000000000142"
+  },
+  "nombre": "POCOYO SALTARÍN",
+  "precio": 20.5,
+  "peso": 4.98,
+  "stock": 13
+},{
+  "_id": {
+    "$oid": "000000000000000000000143"
+  },
+  "nombre": "POL Y SARA",
+  "precio": 34.96,
+  "peso": 2.87,
+  "stock": 14
+},{
+  "_id": {
+    "$oid": "000000000000000000000144"
+  },
+  "nombre": "POPY CORREPASILLOS",
+  "precio": 63.97,
+  "peso": 5.4,
+  "stock": 19
+},{
+  "_id": {
+    "$oid": "000000000000000000000145"
+  },
+  "nombre": "PRINCESA CELESTIA",
+  "precio": 53.9,
+  "peso": 6.64,
+  "stock": 5
+},{
+  "_id": {
+    "$oid": "000000000000000000000146"
+  },
+  "nombre": "PRINCESAS DISNEY TRANSFORMACIÓN MÁGICA",
+  "precio": 64.33,
+  "peso": 0.66,
+  "stock": 13
+},{
+  "_id": {
+    "$oid": "000000000000000000000147"
+  },
+  "nombre": "PROYECTOR MOCHILA DE DORA",
+  "precio": 48.31,
+  "peso": 5.76,
+  "stock": 18
+},{
+  "_id": {
+    "$oid": "000000000000000000000148"
+  },
+  "nombre": "PULPO BUSCA Y APRENDE",
+  "precio": 24.91,
+  "peso": 5.47,
+  "stock": 0
+},{
+  "_id": {
+    "$oid": "000000000000000000000149"
+  },
+  "nombre": "QUATTRO",
+  "precio": 64.11,
+  "peso": 0.49,
+  "stock": 10
+},{
+  "_id": {
+    "$oid": "000000000000000000000150"
+  },
+  "nombre": "REAL CONSTRUCTION SET DELUXE",
+  "precio": 42.31,
+  "peso": 3.14,
+  "stock": 14
+},{
+  "_id": {
+    "$oid": "000000000000000000000151"
+  },
+  "nombre": "RESCATE EN LA ISLA DE LA NIEBLA",
+  "precio": 33.62,
+  "peso": 0.59,
+  "stock": 3
+},{
+  "_id": {
+    "$oid": "000000000000000000000152"
+  },
+  "nombre": "RICOCHET RC",
+  "precio": 80.97,
+  "peso": 3.95,
+  "stock": 17
+},{
+  "_id": {
+    "$oid": "000000000000000000000153"
+  },
+  "nombre": "SCRABBLE DELIRIUM",
+  "precio": 30.43,
+  "peso": 3.81,
+  "stock": 15
+},{
+  "_id": {
+    "$oid": "000000000000000000000154"
+  },
+  "nombre": "SNAPX - GORMITI VOLCANO",
+  "precio": 40.5,
+  "peso": 6.64,
+  "stock": 20
+},{
+  "_id": {
+    "$oid": "000000000000000000000155"
+  },
+  "nombre": "SPIDERMAN VEHÍCULO MULTIMISIÓN 5 EN 1",
+  "precio": 41.42,
+  "peso": 6.92,
+  "stock": 5
+},{
+  "_id": {
+    "$oid": "000000000000000000000156"
+  },
+  "nombre": "SPY NET- RELOJ VIDEO",
+  "precio": 52.44,
+  "peso": 4.98,
+  "stock": 3
+},{
+  "_id": {
+    "$oid": "000000000000000000000157"
+  },
+  "nombre": "SÚPER PROYECTOR CARS 2",
+  "precio": 60.39,
+  "peso": 5.82,
+  "stock": 10
+},{
+  "_id": {
+    "$oid": "000000000000000000000158"
+  },
+  "nombre": "SÚPER STILE ESTUDIO DE CREACIÓN",
+  "precio": 58.33,
+  "peso": 1.32,
+  "stock": 12
+},{
+  "_id": {
+    "$oid": "000000000000000000000159"
+  },
+  "nombre": "SUPERAVIÓN DE POLLY",
+  "precio": 49.6,
+  "peso": 4.21,
+  "stock": 9
+},{
+  "_id": {
+    "$oid": "000000000000000000000160"
+  },
+  "nombre": "SUPERCASA BARBIE",
+  "precio": 80.21,
+  "peso": 5.5,
+  "stock": 10
+},{
+  "_id": {
+    "$oid": "000000000000000000000161"
+  },
+  "nombre": "T - TOCA RUMMYNO DE LUJO",
+  "precio": 78.4,
+  "peso": 4.39,
+  "stock": 19
+},{
+  "_id": {
+    "$oid": "000000000000000000000162"
+  },
+  "nombre": "TETRIS BLOCKS",
+  "precio": 43.28,
+  "peso": 2.95,
+  "stock": 15
+},{
+  "_id": {
+    "$oid": "000000000000000000000163"
+  },
+  "nombre": "THE DOLL FACTORY",
+  "precio": 64.5,
+  "peso": 5.27,
+  "stock": 16
+},{
+  "_id": {
+    "$oid": "000000000000000000000164"
+  },
+  "nombre": "TODO ES ROSIE CANTA CON ROSIE",
+  "precio": 78.21,
+  "peso": 3.38,
+  "stock": 20
+},{
+  "_id": {
+    "$oid": "000000000000000000000165"
+  },
+  "nombre": "TOFFEE",
+  "precio": 23.71,
+  "peso": 0.79,
+  "stock": 19
+},{
+  "_id": {
+    "$oid": "000000000000000000000166"
+  },
+  "nombre": "TONKA",
+  "precio": 47.36,
+  "peso": 1.41,
+  "stock": 19
+},{
+  "_id": {
+    "$oid": "000000000000000000000167"
+  },
+  "nombre": "TRAGABOLAS",
+  "precio": 51.4,
+  "peso": 5.97,
+  "stock": 3
+},{
+  "_id": {
+    "$oid": "000000000000000000000168"
+  },
+  "nombre": "TRANSFORMERS",
+  "precio": 59.93,
+  "peso": 4.53,
+  "stock": 14
+},{
+  "_id": {
+    "$oid": "000000000000000000000169"
+  },
+  "nombre": "TRANSFORMERS LEADER",
+  "precio": 38.58,
+  "peso": 2.68,
+  "stock": 16
+},{
+  "_id": {
+    "$oid": "000000000000000000000170"
+  },
+  "nombre": "TRICICLO CONFORT COMPLETO ACOLCHADO",
+  "precio": 63.41,
+  "peso": 5.29,
+  "stock": 17
+},{
+  "_id": {
+    "$oid": "000000000000000000000171"
+  },
+  "nombre": "TRICICLO RUEDA FIJA CON PALO Y CINTURÓN",
+  "precio": 73.26,
+  "peso": 3.99,
+  "stock": 18
+},{
+  "_id": {
+    "$oid": "000000000000000000000172"
+  },
+  "nombre": "TROMPA BALL",
+  "precio": 55.5,
+  "peso": 0.55,
+  "stock": 5
+},{
+  "_id": {
+    "$oid": "000000000000000000000173"
+  },
+  "nombre": "UNO ROBOTO",
+  "precio": 53.52,
+  "peso": 0.1,
+  "stock": 14
+},{
+  "_id": {
+    "$oid": "000000000000000000000174"
+  },
+  "nombre": "WEBBLES LA CASA DEL ÁRBOL",
+  "precio": 36.3,
+  "peso": 0.3,
+  "stock": 11
+},{
+  "_id": {
+    "$oid": "000000000000000000000175"
+  },
+  "nombre": "WOOFIE",
+  "precio": 35.21,
+  "peso": 2.76,
+  "stock": 0
+},{
+  "_id": {
+    "$oid": "000000000000000000000176"
+  },
+  "nombre": "XILÓFONO ZOO",
+  "precio": 29.93,
+  "peso": 4.89,
+  "stock": 0
+},{
+  "_id": {
+    "$oid": "000000000000000000000177"
+  },
+  "nombre": "XTS RADIO CONTROL",
+  "precio": 63.92,
+  "peso": 1.11,
+  "stock": 0
+},{
+  "_id": {
+    "$oid": "000000000000000000000178"
+  },
+  "nombre": "ZHU ZHU PRINCESS - EL CASTILLO DE LA PRINCESA",
+  "precio": 40.19,
+  "peso": 2.73,
+  "stock": 6
+}]

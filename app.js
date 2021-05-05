@@ -1,9 +1,12 @@
 const path = require('path');
+const mongoose = require('mongoose');
 
 const express = require('express');
 const app = express();
 
 const PORT = process.env.PORT || 8000;
+
+mongoose.connect('mongodb://localhost:27017/act2', { useNewUrlParser: true });
 
 app.use(express.json());
 app.use(express.urlencoded());
