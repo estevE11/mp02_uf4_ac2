@@ -1,12 +1,21 @@
 const path = require('path');
 const mongoose = require('mongoose');
 
+const session = require('express-session');
 const express = require('express');
 const app = express();
 
 const PORT = process.env.PORT || 8000;
 
+const PajesModel = require('./models/PajesModel');
+
 mongoose.connect('mongodb://localhost:27017/act2', { useNewUrlParser: true });
+
+app.use(session({
+    secret: 'Es un secreto',
+    resave: true,
+    saveUninitialized: true
+}));
 
 app.use(express.json());
 app.use(express.urlencoded());
@@ -26,7 +35,21 @@ app.get('/', (req, res) => {
 });
 
 app.post('/login', (req, res) => {
-    res.redirect('/juguetes');
+    const user = req.body.username;
+    const pass = req.body.password;
+
+    PajesModel.findOne({ usuario: user }, (err, data) => {
+        if (err || !data) {
+            res.redirect('/');
+            return;
+        }
+        if (pass == data.password) {
+            req.session.usuario = data._id;
+            res.redirect('/juguetes');
+            return;
+        }
+        res.redirect('/');
+    });
 });
 
 app.get('*', (req, res) => {

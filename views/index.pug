@@ -15,10 +15,10 @@ include templates/navbar
       form(action='/login' method='post')
         .form-group
           label.text-light(for='nif') Usuario #{error}
-          input#potencia.form-control(type='text' name='nif')
+          input#potencia.form-control(type='text' name='username')
         .form-group
           label.text-light(for='pass') Contraseña
-          input#edad.form-control(type='password' name='pass')
+          input#edad.form-control(type='password' name='password')
         .form-group.text-right
           button.btn.btn-default(type='submit') Login
           
