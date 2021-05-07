@@ -5,8 +5,9 @@ const JuguetesModel = require('./../models/JuguetesModel');
 const { route } = require('./cartas');
 
 router.get('/', (req, res) => {
+    console.log(req.custom);
     JuguetesModel.find((err, data) => {
-        res.render('juguetes/index', { juguetes: data});
+        res.render('juguetes/index', { juguetes: data, params: req.custom});
     });
 });
 
@@ -17,14 +18,14 @@ router.post('/', (req, res) => {
 });
 
 router.get('/create', (req, res) => {
-    res.render('juguetes/create');
+    res.render('juguetes/create', { params: req.custom });
 });
 
 router.get('/:id/edit', (req, res) => {
     const id = req.params.id;
 
     JuguetesModel.findById(id, (err, data) => {
-        res.render('juguetes/edit', {juguete: data});
+        res.render('juguetes/edit', { juguete: data, params: req.custom});
     });
 });
 

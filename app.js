@@ -27,11 +27,19 @@ app.set("views", path.join(__dirname, "views"));
 
 app.use(express.static(path.join(__dirname, "public")));
 
+app.use((req, res, next) => {
+    req.custom = {};
+    if (req.session.usuario) {
+        req.custom.usuario = req.session.usuario;
+    }
+    next();
+});
+
 app.use('/juguetes', require('./routes/juguetes'));
 app.use('/cartas', require('./routes/cartas'));
 
 app.get('/', (req, res) => {
-    res.render('index');
+    res.render('index', { params: req.custom });
 });
 
 app.post('/login', (req, res) => {
@@ -43,10 +51,20 @@ app.post('/login', (req, res) => {
             res.redirect('/');
             return;
         }
+        console.log(pass, data.password);
         if (pass == data.password) {
             req.session.usuario = data._id;
             res.redirect('/juguetes');
             return;
+        }
+        res.redirect('/');
+    });
+});
+
+app.get('/logout', (req, res) => {
+    req.session.destroy((err) => {
+        if (err) {
+            console.log('Error al destruir las variables de sesión');
         }
         res.redirect('/');
     });
