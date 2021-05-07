@@ -1,17 +1,17 @@
 const mongoose = require('mongoose');
 
 module.exports = mongoose.model('juguetes', mongoose.Schema({
-    name: {
+    nombre: {
         type: String,
-        validate: '/[A-Za-z0-9 -]{0,80}/',
+        match: [/[A-Z0-9-]{1,80}/, 'asdf'],
         required: true
     },
-    price: {
+    precio: {
         type: Number,
         required: true,
         min: 0
     },
-    weight: {
+    peso: {
         type: Number,
         required: true,
         min: 0,

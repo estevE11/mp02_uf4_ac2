@@ -1,0 +1,30 @@
+
+include ../templates/header
+include ../templates/navbar
+
+.container.mt-5
+    .row
+        .col-2
+        .col-10
+            .row
+                .card(style="margin-bottom: 100px;")
+                    .card-header Crear juguete 
+                    .card-body 
+                        form(action="/juguetes", method="post")
+                            .form-group
+                                label(for='nombre') Nombre
+                                input#nombre.form-control(type='text' name='nombre')
+                            .form-group
+                                label(for='precio') Precio
+                                input#precio.form-control(type='number' name='precio')
+                            .form-group
+                                label(for='peso') Peso
+                                input#peso.form-control(type='number' name='peso')
+                            .form-group
+                                label(for='stock') Peso
+                                input#stock.form-control(type='number' name='stock')
+                            .form-group.text-right
+                                button.btn.btn-default(type='submit') Crear
+        .col-2
+          
+include ../templates/footer

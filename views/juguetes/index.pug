@@ -1,0 +1,26 @@
+
+include ../templates/header
+include ../templates/navbar
+
+.container.mt-5
+    .row
+        .col-2
+        .col-10
+            .row.mb-5
+                table.table
+                    tr 
+                        th Nombre
+                        th Precio
+                        th Peso
+                        th Stock
+                    for val in juguetes
+                        tr 
+                            td 
+                                a(href="/juguetes/delete/" + val._id, style="color:red") X  
+                                a(href="/juguetes/" + val._id + "/edit") #{val.nombre}
+                            td #{val.precio}
+                            td #{val.peso}
+                            td #{val.stock}
+        .col-2
+          
+include ../templates/footer

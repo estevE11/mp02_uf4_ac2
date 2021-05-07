@@ -18,13 +18,20 @@ app.set("views", path.join(__dirname, "views"));
 
 app.use(express.static(path.join(__dirname, "public")));
 
-//app.use('/juguetes', require('./routes/juguetes'));
+app.use('/juguetes', require('./routes/juguetes'));
+app.use('/cartas', require('./routes/cartas'));
 
 app.get('/', (req, res) => {
     res.render('index');
 });
 
+app.post('/login', (req, res) => {
+    res.redirect('/juguetes');
+});
 
+app.get('*', (req, res) => {
+    res.send('404 page not found');
+});
 
 app.listen(PORT, () => {
     console.log(`Listening to localhost:${PORT}`);
