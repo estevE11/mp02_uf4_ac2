@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-module.exports = mongoose.model('ninos', mongoose.Schema({
+const schema = new mongoose.Schema({
     nombre: {
         type: String,
         required: true
@@ -24,18 +24,16 @@ module.exports = mongoose.model('ninos', mongoose.Schema({
     pais: {
         type: String,
         required: true
-    },
-    nombreCompleto: {
-        type: String,
-        default: () => {
-            return this.nombre + this.apellidos;
-        }
-    },
-    edad: {
-        type: Number,
-        default: () => {
-            const diff = Date.now() - this.fechaNacimiento.getTime();
-            return Math.abs(new Date(diff).getUTCFullYear()-1970);
-        }
     }
-}));
+});
+
+schema.virtual('nombreCompleto').get(function() {
+    return this.nombre + " " + this.apellidos;
+});
+
+schema.virtual('edad').get(function () {
+    const diff = Date.now() - this.fechaNacimiento.getTime();
+    return Math.abs(new Date(diff).getUTCFullYear() - 1970);
+});
+
+module.exports = mongoose.model('ninos', schema);

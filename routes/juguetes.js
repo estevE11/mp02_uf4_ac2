@@ -5,7 +5,6 @@ const JuguetesModel = require('./../models/JuguetesModel');
 const { route } = require('./cartas');
 
 router.get('/', (req, res) => {
-    console.log(req.custom);
     JuguetesModel.find((err, data) => {
         res.render('juguetes/index', { juguetes: data, params: req.custom});
     });

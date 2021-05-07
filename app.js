@@ -57,7 +57,6 @@ app.post('/login', (req, res) => {
             res.redirect('/');
             return;
         }
-        console.log(pass, data.password);
         if (pass == data.password) {
             req.session.usuario = data._id;
             res.redirect('/juguetes');
