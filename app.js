@@ -31,6 +31,12 @@ app.use((req, res, next) => {
     req.custom = {};
     if (req.session.usuario) {
         req.custom.usuario = req.session.usuario;
+    } else {
+        req.custom.usuario = false;
+        if (req.url != '/' && req.url != '/login') {
+            res.redirect('/')
+            return;
+        }
     }
     next();
 });
