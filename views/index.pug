@@ -11,7 +11,7 @@ include templates/navbar
 
       if error
         .alert.alert-danger
-          span Credenciales incorrectas
+          span #{error}
       form(action='/login' method='post')
         .form-group
           label.text-light(for='nif') Usuario #{error}

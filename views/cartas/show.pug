@@ -8,16 +8,24 @@ include ../templates/navbar
             .row.mb-5
                 .card(style="width:100%;").mb-5
                     .card-header 
-                        <span style="font-size: 32px;">#{carta.nino.nombreCompleto}</span> #{carta.nino.poblacion} (#{carta.nino.pais})
-                        button
-                            span buenas
-                            i.bi.bi-check
+                        .row
+                            .col-8
+                                <span style="font-size: 32px;">#{carta.nino.nombreCompleto}</span> #{carta.nino.poblacion} (#{carta.nino.pais})
+                            .col-4
+                                if !carta.aceptada
+                                    form.float-right(action="/cartas/" + carta._id, method="post")
+                                        .form-group
+                                            button.btn.btn-success(type='submit')
+                                                span Aceptar
+                                else 
+                                    button.float-right.btn.btn-outline-success.disabled(type='submit')
+                                        span Aceptada
                     .card-body
                         span <b>Comportamiento:</b> #{carta.nino.comportamiento}
                         br
                         span <b>Edad:</b> #{carta.nino.edad}
                         br
-                        span <b>Page:</b> #{carta.paje.nombre} #{carta.paje.apellidos}
+                        span <b>Paje:</b> #{carta.paje.nombre} #{carta.paje.apellidos}
                         br
                         br
                         span <b>Juguetes:</b>
@@ -26,5 +34,6 @@ include ../templates/navbar
                                 li=val.nombre
 
         .col-1
+        span #{session}
           
 include ../templates/footer

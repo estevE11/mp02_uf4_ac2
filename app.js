@@ -45,7 +45,7 @@ app.use('/juguetes', require('./routes/juguetes'));
 app.use('/cartas', require('./routes/cartas'));
 
 app.get('/', (req, res) => {
-    res.render('index', { params: req.custom });
+    res.render('index', { params: req.custom, error: req.session.error });
 });
 
 app.post('/login', (req, res) => {
@@ -54,10 +54,12 @@ app.post('/login', (req, res) => {
 
     PajesModel.findOne({ usuario: user }, (err, data) => {
         if (err || !data) {
+            req.session.error = 'Usuario o contraseña incorrectos';
             res.redirect('/');
             return;
         }
         if (pass == data.password) {
+            req.session.error = '';
             req.session.usuario = data._id;
             res.redirect('/juguetes');
             return;
