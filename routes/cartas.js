@@ -11,7 +11,7 @@ router.get('/', (req, res) => {
             console.log(err);
         }
         console.log(data);
-        res.render('cartas/index', { cartas: data, params: req.custom });
+        res.render('cartas/index', { cartas: data, params: req.custom});
     });
 });
 
@@ -21,8 +21,7 @@ router.get('/:id', (req, res) => {
         if (err) {
             console.log(err);
         }
-        console.log(data);
-        res.render('cartas/show', { carta: data, params: req.custom });
+        res.render('cartas/show', { carta: data, params: req.custom});
     });
 });
 
@@ -30,9 +29,12 @@ router.post('/:id', (req, res) => {
     const id = req.params.id;
     CartasModel.findByIdAndUpdate(id, { aceptada: true }, (err, data) => {
         if (err) {
+            req.custom.error = 'Hubo un error al aceptar la carta';
             res.redirect(`cartas/${id}`);
             return;
         }
+        req.session.error = false;
+
         res.redirect('/cartas');
     });
 });

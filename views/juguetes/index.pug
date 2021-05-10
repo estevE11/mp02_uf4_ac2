@@ -1,4 +1,3 @@
-
 include ../templates/header
 include ../templates/navbar
 
@@ -6,6 +5,23 @@ include ../templates/navbar
     .row
         .col-2
         .col-10
+            .row.mb-2
+                if params.error
+                    .alert.alert-danger
+                        span #{params.error}
+            .row.mb-2
+                .col-2
+                    a.mr-5(href="/juguetes/create")
+                        button.btn.btn-success
+                            span Insertar juguete
+                .col-10
+                    form(action='/juguetes' method='get')
+                        .form-group
+                            .row 
+                                .col-10
+                                    input.form-control(name="filter")
+                                .col-2
+                                    button.btn.btn-default.float-right(type='submit') BUSCAR
             .row.mb-5
                 table.table
                     tr 

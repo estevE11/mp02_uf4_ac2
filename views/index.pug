@@ -9,9 +9,9 @@ include templates/navbar
     .col-4.p-3.mb-5.bg-danger.rounded
       h1.text-white.text-center Accede a tu cuenta
 
-      if error
+      if params.error
         .alert.alert-danger
-          span #{error}
+          span #{params.error}
       form(action='/login' method='post')
         .form-group
           label.text-light(for='nif') Usuario #{error}

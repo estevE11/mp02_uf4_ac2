@@ -28,7 +28,8 @@ app.set("views", path.join(__dirname, "views"));
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use((req, res, next) => {
-    req.custom = {};
+    req.custom = {error: req.session.error}
+    if (!req.custom) req.custom = {};
     if (req.session.usuario) {
         req.custom.usuario = req.session.usuario;
     } else {
@@ -45,7 +46,7 @@ app.use('/juguetes', require('./routes/juguetes'));
 app.use('/cartas', require('./routes/cartas'));
 
 app.get('/', (req, res) => {
-    res.render('index', { params: req.custom, error: req.session.error });
+    res.render('index', { params: req.custom, params: req.custom });
 });
 
 app.post('/login', (req, res) => {
@@ -59,7 +60,7 @@ app.post('/login', (req, res) => {
             return;
         }
         if (pass == data.password) {
-            req.session.error = '';
+            req.custom.error = '';
             req.session.usuario = data._id;
             res.redirect('/juguetes');
             return;

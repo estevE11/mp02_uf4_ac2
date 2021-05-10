@@ -6,6 +6,9 @@ include ../templates/navbar
         .col-1
         .col-10
             .row.mb-5
+                if params.error
+                    .alert.alert-danger
+                        span #{params.error}
                 .card(style="width:100%;").mb-5
                     .card-header 
                         .row
